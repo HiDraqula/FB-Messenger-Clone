@@ -36,8 +36,9 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <img src="https://facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=100&h=100" alt="messenger logo" />
+    <div className="app">
+      <img src="/images/fbm-logo.webp" alt="messenger logo" />
+      {/* <img src="https://facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=100&h=100" alt="messenger logo" /> */}
       <h2>Welcome {username}</h2>
 
       <form className='app__form' >

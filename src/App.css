@@ -1,15 +1,16 @@
-.App {
+.app {
   text-align: center;
+  margin-top: 1rem;
 }
 
 .app__form {
   padding: 20px;
   position: fixed;
+  left: 1rem;
+  right: 1rem;
   bottom: 20px;
   z-index: 1;
   background-color: #e9e9eb;
-  width: 96%;
-  margin: 20px;
 }
 
 .app__formControl {
